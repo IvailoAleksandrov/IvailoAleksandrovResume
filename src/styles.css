@@ -98,18 +98,8 @@ body {
     background-image: url('./Images/QA-Testing-Training.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
     background-size: cover; /* Scale the background image to cover the entire section */
     background-position: center; /* Center the background image within the section */
-    color: #fff; /* Set text color to white for better contrast */
+    color: #0c0c0c; /* Set text color to white for better contrast */
 }
-
-/* Rest of your existing styles for the experience section */
-#experience h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #0a0a0a; /* Set text color to white */
-}
-
-/* Rest of your existing styles for job, headings, company, etc. */
-
 
 .job {
     margin-bottom: 10px;
@@ -129,7 +119,7 @@ body {
 .duration {
     font-size: 14px;
     color: #000000;
-    margin-bottom: 10px;
+    
 }
 
 .responsibilities {
@@ -197,6 +187,8 @@ body {
     font-weight: bold; /* Make the bullet point bold */
   }
   
-
+ 
+   
+  
 
 

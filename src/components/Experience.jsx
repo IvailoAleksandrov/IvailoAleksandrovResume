@@ -6,11 +6,11 @@ function Experience() {
     <section id="experience" className="section">
         <h2>Experience</h2>
         
-        <div class="job">
+        <div className="job">
             <h3>QA Specialist</h3>
-            <p class="company">7777 Gaming</p>
-            <p class="duration">04/2023 - 12/2023</p>
-            <ul class="responsibilities">
+            <p>7777 Gaming</p>
+            <p className="duration">04/2023 - 12/2023</p>
+            <ul className="responsibilities">
                 <li>Аnalyzing business requirements and specification.</li>
                 <li>Creating, maintaining, and executing detailed, comprehensive, and well-structured test plans and test cases.</li>
                 <li>Working closely with the development team and project managers.</li>
@@ -25,11 +25,11 @@ function Experience() {
             </ul>
         </div>
 
-        <div class="job">
+        <div className="job">
             <h3>E-commerce shop owner</h3>
-            <p class="company">Self-employed</p>
-            <p class="duration">11/2016 - 05/2022</p>
-            <ul class="responsibilities">
+            <p >Self-employed</p>
+            <p className="duration">11/2016 - 05/2022</p>
+            <ul className="responsibilities">
                 <li>Business Strategy.</li>
                 <li>Product Selection and Sourcing.</li>
                 <li>Website Management.</li>
@@ -38,11 +38,11 @@ function Experience() {
                 <li>Financial Management.</li>
             </ul>
         </div>
-        <div class="job">
+        <div className="job">
             <h3>Accountant</h3>
-            <p class="company">Centillion LTD, CEZ Trade Bulgaria EAD, V&M Company LTD, Blizoo </p>
-            <p class="duration">07/2010 - 11/2016</p>
-            <ul class="responsibilities">
+            <p>Centillion LTD, CEZ Trade Bulgaria EAD, V&M Company LTD, Blizoo </p>
+            <p className="duration">07/2010 - 11/2016</p>
+            <ul className="responsibilities">
                 <li>Financial Record Keeping.</li>
                 <li>Financial Reporting.</li>
                 <li>Tax Planning and Compliance.</li>
