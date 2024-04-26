@@ -11,8 +11,8 @@ function Contacts() {
         <li>Phone: +359 883485045</li>
         <li>Address: Sofia, Mladost 2</li>
         <p>Profiles</p>
-        <li><a href="www.linkedin.com/in/ivailo-aleksandrov-484b66248" target="_blank">LinkedIn Profile</a></li>
-        <li><a href="https://github.com/IvailoAleksandrov" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/ivailo-aleksandrov-484b66248" target="_blank" rel="noreferrer">LinkedIn Profile</a></li>
+        <li><a href="https://github.com/IvailoAleksandrov" target="_blank" rel="noreferrer">GitHub Profile</a></li>
       </ul>
       
     </section>
