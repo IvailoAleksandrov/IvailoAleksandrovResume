@@ -186,9 +186,29 @@ body {
     margin-left: -1em; /* Adjust the margin to align bullet points */
     font-weight: bold; /* Make the bullet point bold */
   }
-  
  
-   
+
+
+  .slider-container {
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .experience {
+    flex: 1 0 100%;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
   
 
 

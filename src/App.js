@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import './styles.css';
 
 // Import your components
 import Header from './components/Header';
@@ -11,6 +12,7 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Contacts from './components/Contacts';
+import Btc from './components/Btc';
 
 
 // Main styled container
@@ -21,17 +23,26 @@ const Container = styled.div`
 `;
 
 function App() {
+  // Define state to track the current theme
+  const [darkMode, setDarkMode] = useState(false);
+  const toggleTheme = () => {
+    setDarkMode(prevMode => !prevMode);
+  };
+
+
   return (
     <Container>
-      <NavBar />
+      <NavBar /> 
       <Header />
-      <About />
+      <About />   
       <Experience />
       <Education />
       <Skills />
       <Projects />
       <Contacts />
+      <Btc/>
       <Footer />
+      
     </Container>
   );
 }

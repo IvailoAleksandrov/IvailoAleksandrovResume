@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles.css';
 
 function Experience() {
+
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === 2 ? 0 : prevSlide + 1));
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prevSlide) => (prevSlide === 0 ? 2 : prevSlide - 1));
+  };
   return (
+
     <section id="experience" className="section">
-        <h2>Experience</h2>
-        
-        <div className="job">
+    <h2>Experience</h2>
+    <div className="slider-container">
+      <div className="slide" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+        <div className="experience"><div >
             <h3>QA Specialist</h3>
             <p>7777 Gaming</p>
             <p className="duration">04/2023 - 12/2023</p>
@@ -23,9 +35,8 @@ function Experience() {
                 <li>Testing multiple slot games from different providers</li>
                 <li>Reporting bugs, including clear steps to reproduce them, and tracking their resolution through to completion</li>
             </ul>
-        </div>
-
-        <div className="job">
+        </div></div>
+        <div className="experience"><div>
             <h3>E-commerce shop owner</h3>
             <p >Self-employed</p>
             <p className="duration">11/2016 - 05/2022</p>
@@ -37,8 +48,8 @@ function Experience() {
                 <li>Analytics and Performance Tracking.</li>
                 <li>Financial Management.</li>
             </ul>
-        </div>
-        <div className="job">
+        </div></div>
+        <div className="experience"><div>
             <h3>Accountant</h3>
             <p>Centillion LTD, CEZ Trade Bulgaria EAD, V&M Company LTD, Blizoo </p>
             <p className="duration">07/2010 - 11/2016</p>
@@ -50,8 +61,14 @@ function Experience() {
                 <li>Financial Analysis.</li>
                 <li>Compliance and Regulatory Reporting.</li>
             </ul>
-        </div>
-    </section>
+        </div></div>
+      </div>
+    </div>
+    <div className="controls">
+      <button onClick={prevSlide}>Previous</button>
+      <button onClick={nextSlide}>Next</button>
+    </div>
+  </section>
   );
 }
 
