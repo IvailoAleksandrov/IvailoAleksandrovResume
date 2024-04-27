@@ -23,12 +23,6 @@ const Container = styled.div`
 `;
 
 function App() {
-  // Define state to track the current theme
-  const [darkMode, setDarkMode] = useState(false);
-  const toggleTheme = () => {
-    setDarkMode(prevMode => !prevMode);
-  };
-
 
   return (
     <Container>

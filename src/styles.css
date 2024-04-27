@@ -102,24 +102,25 @@ body {
 }
 
 .job {
-    margin-bottom: 10px;
+    margin-bottom: 5px
 }
 
 .job h3 {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: #000000;
 }
 
 .company {
     font-size: 16px;
     color: #000000;
+    margin-bottom: 5px
 }
 
 .duration {
     font-size: 14px;
     color: #000000;
-    
+     margin-bottom: 5px;
 }
 
 .responsibilities {

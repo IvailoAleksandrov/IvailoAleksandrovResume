@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles.css';
+import education from '../Images/education.png'
 
 function Education() {
   return (
-    <section id="education" className="section">
+    <section id="education" className="section" style={{ backgroundImage: `url(${education})` }}>
+      
       <h2>Education</h2>
       <ul className="bullet-list"> 
         <li>Postman: The Complete Guide - REST API Testing (01/2024 - 02/2024)</li>
