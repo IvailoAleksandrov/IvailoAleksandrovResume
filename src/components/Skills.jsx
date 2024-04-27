@@ -1,9 +1,10 @@
 import React from 'react';
 import '../styles.css';
+import qatesting from '../Images/QA-Testing-Training.png'
 
 function Skills() {
   return (
-    <section id="skills" className="section">
+    <section id="skills" className="section" style={{ backgroundImage: `url(${qatesting})` }}>
       <h2>Skills</h2>
       <ul className="bullet-list">
         <li>Manual/Automation Testing</li>
