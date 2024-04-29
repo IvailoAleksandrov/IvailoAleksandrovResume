@@ -13,7 +13,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="section">
       <ul className="nav-links">
         <li>
           <a href="#about" onClick={() => scrollToSection('about')}>
