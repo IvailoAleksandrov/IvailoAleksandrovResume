@@ -53,8 +53,6 @@ body {
     background-position: center; /* Center the background image within the section */
     color: #0a0a0a; /* Set text color to white for better contrast */
     border-radius: 10px;
-    
-   
 }
 
 .section h2 {
@@ -130,11 +128,11 @@ body {
 
 /* Nav bar */
 
-  
   .nav-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
+   
   }
   
   .nav-links li {
@@ -142,7 +140,7 @@ body {
   }
   
   .nav-links li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-right: 0.5rem;
@@ -193,7 +191,7 @@ body {
   }
   
   button {
-    background-color: lightblue;
+    background-color: #013a63;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -203,6 +201,6 @@ body {
   }
   
   button:hover {
-    background-color: #4682A9;
+    background-color: #013a63;
   }
 

@@ -13,7 +13,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="section">
+    <nav className="section" style={{ backgroundColor: '#012a4a' }}>
       <ul className="nav-links">
         <li>
           <a href="#about" onClick={() => scrollToSection('about')}>
