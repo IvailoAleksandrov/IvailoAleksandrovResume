@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles.css';
+import giticon from '../icons/image.webp'
+import linkedIn from '../icons/linkedIn.png'
 
 function Contacts() {
   return (
@@ -11,8 +13,10 @@ function Contacts() {
         <li>Phone: +359 883485045</li>
         <li>Address: Sofia, Mladost 2</li>
         <p>Profiles</p>
-        <li><a href="https://www.linkedin.com/in/ivailo-aleksandrov-484b66248" target="_blank" rel="noreferrer">LinkedIn Profile</a></li>
-        <li><a href="https://github.com/IvailoAleksandrov" target="_blank" rel="noreferrer">GitHub Profile</a></li>
+        
+        <p><a href="https://www.linkedin.com/in/ivailo-aleksandrov-484b66248" target="_blank" rel="noreferrer"><img src={linkedIn} alt="GitHub Icon" style={{ width: '60px', marginRight: '5px' }} /></a>
+        <a href="https://github.com/IvailoAleksandrov" target="_blank" rel="noreferrer"><img src={giticon} alt="GitHub Icon" style={{ width: '60px', marginRight: '5px' }} /></a></p>
+        
       </ul>
       
     </section>

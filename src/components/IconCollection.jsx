@@ -18,6 +18,7 @@ import driving from '../icons/driving.png'
 import finance from '../icons/finance.png'
 import oop from '../icons/oop.png'
 import http from '../icons/http.webp'
+import chat from '../icons/chat.png'
 
 
 function IconCollection() {
@@ -32,10 +33,9 @@ function IconCollection() {
         { icon: html, title: 'Html' },
         { icon: css, title: 'CSS' },
         { icon: http, title: 'HTTP' },
-       
     ];
     const icons2 = [
-        
+        { icon: chat, title: 'ChatGPT' },
         { icon: cdt, title: 'Dev Tools' },
         { icon: oop, title: 'OOP' },
         { icon: gitHub, title: 'GitHub' },
