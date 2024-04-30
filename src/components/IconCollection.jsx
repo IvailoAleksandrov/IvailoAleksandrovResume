@@ -17,6 +17,7 @@ import english from '../icons/english.jpg'
 import driving from '../icons/driving.png'
 import finance from '../icons/finance.png'
 import oop from '../icons/oop.png'
+import http from '../icons/http.webp'
 
 
 function IconCollection() {
@@ -30,6 +31,7 @@ function IconCollection() {
         { icon: net, title: 'C# .NET' },
         { icon: html, title: 'Html' },
         { icon: css, title: 'CSS' },
+        { icon: http, title: 'HTTP' },
        
     ];
     const icons2 = [
@@ -47,7 +49,7 @@ function IconCollection() {
 
 
     return (
-       <div className='section'>
+       <div id="skills" className='section'>
         <h1>Skills</h1>
        <div className="icon-collection">
             {icons.map((item, index) => (
