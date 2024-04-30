@@ -16,6 +16,7 @@ import slack from '../icons/Slack.png'
 import english from '../icons/english.jpg'
 import driving from '../icons/driving.png'
 import finance from '../icons/finance.png'
+import oop from '../icons/oop.png'
 
 
 function IconCollection() {
@@ -34,6 +35,7 @@ function IconCollection() {
     const icons2 = [
         
         { icon: cdt, title: 'Dev Tools' },
+        { icon: oop, title: 'OOP' },
         { icon: gitHub, title: 'GitHub' },
         { icon: jira, title: 'Jira' },
         { icon: clickup, title: 'ClickUp' },
