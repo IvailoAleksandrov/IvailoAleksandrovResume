@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ExperienceAcc() {
    
     return (
-        <div>
+        <div >
             <h3 className='custom-margin'>Experience</h3>
-        <div class="accordion " id="accordionPanelsStayOpenExample" style={{ backgroundColor: 'lightblue', padding: '20px' }}>
+        <div class="accordion " id="accordionPanelsStayOpenExample" >
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">

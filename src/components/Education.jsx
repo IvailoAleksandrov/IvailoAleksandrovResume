@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles.css'; // Assuming you have a styles.css file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image1 from '../Images/Ivailo.jpg';
+
 
 function Education() {
   const educationItems = [
@@ -18,11 +18,11 @@ function Education() {
   return (
     <div>
       <h3 className="custom-margin">Education</h3>
-    <div className="container" style={{ backgroundColor: 'lightblue', padding: '20px' }}>
+    <div className="container">
       <div className="row">
         {educationItems.map((item, index) => (
           <div key={index} className="col-md-4 mb-4">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card" style={{ width: '18rem', backgroundColor: '#b8c7d1' }} >
              
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
