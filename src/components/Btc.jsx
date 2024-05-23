@@ -18,12 +18,12 @@ function Btc() {
 
   return (
     
-      <h2> Bitcoin Price:{bitcoinPrice && (
-    <li className="bitcoin-price">
+      <h3 className="bitcoin-price custom-margin"> Bitcoin Price {bitcoinPrice && (
+    <p >
       <img src={btcLogo} alt="Bitcoin Icon" />
         ${bitcoinPrice.toLocaleString()}
-    </li>
-  )} </h2>
+    </p>
+  )} </h3>
 
 );
  

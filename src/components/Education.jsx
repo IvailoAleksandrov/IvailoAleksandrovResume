@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles.css'; // Assuming you have a styles.css file for styling
-import educationImage from '../Images/hexagons.jpg'; // Assuming education.jpg is the image file
+import 'bootstrap/dist/css/bootstrap.min.css';
+import image1 from '../Images/Ivailo.jpg';
 
 function Education() {
   const educationItems = [
@@ -11,24 +12,33 @@ function Education() {
     { university: 'Swift Academy', title: 'Quality Assurance Course', date: '04/2023 - 05/2023' },
     { university: 'Software University', title: 'MS SQL', date: '02/2023 - 03/2023' },
     { university: 'Software University', title: 'Programming Basics, Fundamentals, Advanced, OOP, Entity Framework Core with C#', date: '06/2022 - 02/2023' },
-    { university: 'University of National and World Economy', title: 'Bachelor and master degree in Accounting', date: '06/2022 - 02/2023' },
+    { university: 'University of National and World Economy', title: 'Bachelor and master degree in Accounting', date: '06/2008 - 10/2012' },
   ];
 
   return (
-    <section id="education" className="section" style={{ backgroundImage: `url(${educationImage})` }}>
-      <h2>Education</h2>
-      <ul className="education-list">
+    <div>
+      <h3 className="custom-margin">Education</h3>
+    <div className="container" style={{ backgroundColor: 'lightblue', padding: '20px' }}>
+      <div className="row">
         {educationItems.map((item, index) => (
-          <li key={index} className="education-item">
-            <div className="education-item-title">{item.title}</div>
-            <div className="education-item-university">{item.university}</div>
-            <div className="education-item-date">{item.date}</div>
-          </li>
+          <div key={index} className="col-md-4 mb-4">
+            <div className="card" style={{ width: '18rem' }}>
+             
+              <div className="card-body">
+                <h5 className="card-title">{item.title}</h5>
+                <p className="card-text">{item.university}</p>
+              </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">{item.date}</li>
+              </ul>
+             
+            </div>
+          </div>
         ))}
-      </ul>
-    </section>
+      </div>
+    </div>
+    </div>
   );
 }
 
 export default Education;
-

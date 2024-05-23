@@ -5,7 +5,7 @@ import './styles.css';
 // Import your components
 import Header from './components/Header';
 import About from './components/About';
-import Experience from './components/Experience';
+
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -13,6 +13,7 @@ import NavBar from './components/NavBar';
 import Contacts from './components/Contacts';
 import Btc from './components/Btc';
 import IconCollection from './components/IconCollection';
+import ExperienceAcc from './components/ExperienceAcc';
 
 
 // Main styled container
@@ -29,7 +30,8 @@ function App() {
       <NavBar /> 
       <Header />
       <About />   
-      <Experience />
+     
+      <ExperienceAcc />
       <Education />
       
       <IconCollection />

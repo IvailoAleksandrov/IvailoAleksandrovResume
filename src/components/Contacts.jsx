@@ -5,8 +5,8 @@ import linkedIn from '../icons/linkedIn.png'
 
 function Contacts() {
   return (
-    <section id="contacts" className="section">
-      <h2>Contacts</h2>
+    <section id="contacts" >
+      <h3 className='custom-margin'>Contacts</h3>
       <p>Please feel free to contact me using the information below:</p>
       <ul className="bullet-list">
         <li>Email: ivailoaleksandrov123@gmail.com</li>

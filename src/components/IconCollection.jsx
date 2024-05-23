@@ -19,6 +19,7 @@ import finance from '../icons/finance.png'
 import oop from '../icons/oop.png'
 import http from '../icons/http.webp'
 import chat from '../icons/chat.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function IconCollection() {
@@ -33,6 +34,7 @@ function IconCollection() {
         { icon: html, title: 'Html' },
         { icon: css, title: 'CSS' },
         { icon: http, title: 'HTTP' },
+        
     ];
     const icons2 = [
         { icon: chat, title: 'ChatGPT' },
@@ -49,8 +51,8 @@ function IconCollection() {
 
 
     return (
-       <div id="skills" className='section'>
-        <h1>Skills</h1>
+       <div id="skills" >
+        <h3 className='custom-margin'>Skills</h3>
        <div className="icon-collection">
             {icons.map((item, index) => (
                 <div key={index} className="icon-item">
