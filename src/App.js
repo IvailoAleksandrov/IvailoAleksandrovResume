@@ -30,12 +30,13 @@ function App() {
       <NavBar /> 
       <Header />
       <About />   
-     
+      <Projects />
       <ExperienceAcc />
+
       <Education />
       
       <IconCollection />
-      <Projects />
+     
       <Contacts />
       <Btc/>
       
