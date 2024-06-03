@@ -4,16 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ExperienceAcc() {
    
     return (
-        <div >
+        <div id="experience">
             <h3 className='custom-margin'>Experience</h3>
         <div class="accordion " id="accordionPanelsStayOpenExample" >
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
             <b> QA Specialist - 7777 Gaming </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04/2023 - 12/2023
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
             <div class="accordion-body">
             <ul className="responsibilities">
                 <li>Аnalyzing business requirements and specification.</li>

@@ -16,7 +16,7 @@ function Education() {
   ];
 
   return (
-    <div>
+    <div id="education">
       <h3 className="custom-margin">Education</h3>
     <div className="container">
       <div className="row">
